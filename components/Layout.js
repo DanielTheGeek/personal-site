@@ -1,12 +1,12 @@
 import Head from "next/head";
 
-const name = "Daniel Omoniyi";
 export const siteTitle = "Daniel Omoniyi";
 
 export default function Layout({ children, home }) {
   return (
     <div className="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover">
       <Head>
+        <title>{siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
