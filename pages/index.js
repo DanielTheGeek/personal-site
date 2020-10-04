@@ -15,7 +15,7 @@ const IndexPage = () => {
           <div
             class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
             style={{
-              backgroundImage: "url('https://source.unsplash.com/MP0IUfwrn0A')",
+              backgroundImage: "url('images/profile.png')",
             }}
           ></div>
 
